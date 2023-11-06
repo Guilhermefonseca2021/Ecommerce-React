@@ -10,12 +10,12 @@ datasource db {
 model Product {
   id           Int @id @default(autoincrement())
   description  String
-  imageURL     String
+  imageUrl     String
   name         String
   price        Int
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
-
+  
   @@map("products")
 }
 
