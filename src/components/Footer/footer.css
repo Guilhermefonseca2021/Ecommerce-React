@@ -1,0 +1,51 @@
+.footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer .top {
+    display: flex;
+    gap: .7rem;
+    margin: auto;
+    max-width: 600px;
+}
+
+.footer .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    font-size: .8rem;
+}
+
+.footer .item > h1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+.footer .item > span {
+    color: gray;
+}
+
+.footer .bottom {
+    max-width: 600px;
+    margin: auto;
+}
+
+.stripeImg {
+    width: 650px;
+}
+
+@media (max-width: 740px) {
+    .footer {
+        margin: 2rem;
+    }
+
+    .stripeImg {
+        width: 15rem;
+    }
+}
