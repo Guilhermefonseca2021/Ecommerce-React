@@ -7,7 +7,7 @@ interface Props {
   trending?: boolean;
 }
 
-export default function FeaturedProducts({ featured, trending }: Props) {
+export default function FeaturedProducts({ featured }: Props) {
 
   return (
     <div className="featuredProducts">

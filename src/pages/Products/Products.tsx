@@ -1,11 +1,12 @@
 import { useParams } from "react-router-dom";
 import "./products.css";
 import { useState } from "react";
+import List from "../../components/List/List";
 
 export default function Products() {
-  const cardId = parseInt(useParams().id || '') ;
-  console.log(cardId)
-  const [maxPrice, setMaxPrice] = useState(1000)
+  const cardId = parseInt(useParams().id || "");
+  console.log(cardId);
+  const [maxPrice, setMaxPrice] = useState<number>(455);
   return (
     <div className="products">
       <div className="left">
@@ -20,7 +21,13 @@ export default function Products() {
           <h2>Filter by price</h2>
           <div className="inputItem">
             <span>0</span>
-            <input type="range" min={0} max={1000} onChange={e => setMaxPrice(Number(e.target.value))} />
+            <input
+              type="range"
+              min={0}
+              value={maxPrice}
+              max={1000}
+              onChange={(e) => setMaxPrice(Number(e.target.value))}
+            />
             <span>{maxPrice}</span>
           </div>
         </div>
@@ -42,6 +49,7 @@ export default function Products() {
           src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt=""
         />
+        <List />
       </div>
     </div>
   );

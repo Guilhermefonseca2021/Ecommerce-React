@@ -18,7 +18,7 @@
 
 .products .left .filterItem h2 {
   font-weight: 400;
-  font-size: 1.275rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
 }
 
@@ -32,6 +32,8 @@
 
 .products .right {
   flex: 3;
+  display: flex;
+  flex-direction: column;
 }
 .products .right .catImg {
   width: 100%;
