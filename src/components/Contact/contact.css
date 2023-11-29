@@ -1,0 +1,49 @@
+.contact {
+  background-color: #2879fe;
+  color: white;
+  padding: 15px;
+  display: flex;
+  margin: 5rem 0;
+  justify-content: center;
+}
+
+.contact .wrapper {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact .wrapper input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.contact .wrapper button {
+  padding: 10px;
+  color: white;
+  background: #333;
+  border-radius: 0 5px 5px 0;
+  border: none;
+}
+
+.contact .wrapper button:hover {
+    cursor: pointer;
+}
+
+.contact .wrapper .icons {
+  display: flex;
+  gap: 10px;
+}
+
+@media (max-width: 740px) {
+  .contact .wrapper input {
+    display: none;
+  }
+
+  .contact .wrapper button {
+    display: none;
+  }
+}
