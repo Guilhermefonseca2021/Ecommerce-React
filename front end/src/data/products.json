@@ -14,6 +14,7 @@
     "imageUrl": "https://plus.unsplash.com/premium_photo-1670452380851-f75723c75c90?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageUrl2": "https://images.unsplash.com/photo-1547465055-b4273a4f3c10?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Coat",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus beatae libero quas obcaecati aspernatur. Alias aut ea rerum ipsam sunt.",
     "isNew": true,
     "oldPrice": 19,
     "price": 12
@@ -23,6 +24,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1603205319065-6ffbe8f0e5af?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageUrl2": "https://images.unsplash.com/photo-1571115782896-f3564fa4f65d?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Skirt",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus beatae libero quas obcaecati aspernatur. Alias aut ea rerum ipsam sunt.",
     "oldPrice": 19,
     "price": 12
   },
@@ -31,6 +33,7 @@
     "imageUrl": "https://images.unsplash.com/photo-1534215754734-18e55d13e346?q=80&w=404&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "imageUrl2": "https://images.unsplash.com/photo-1523465712050-26a46c93f772?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "title": "Hat",
+    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus beatae libero quas obcaecati aspernatur. Alias aut ea rerum ipsam sunt.",
     "oldPrice": 19,
     "price": 12
   }
