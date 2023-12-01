@@ -44,7 +44,7 @@ Alem disso um ter um editor de codigo para trabalhar com o codigo como [VSCode](
 
 ```js
 // clone repositorio
-$  git clone https://github.com/guilhermefonseca2021/
+$  git clone https://github.com/Guilhermefonseca2021/Ecommerce-React.git
 
 // abra a pasta
 $  cd front end

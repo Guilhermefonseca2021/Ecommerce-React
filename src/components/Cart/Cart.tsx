@@ -4,7 +4,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function Cart() {
   return (
-    <div>
+    <div className="cart">
       <h1>Products in your cart</h1>
       {products?.map((item) => (
         <div className="item" key={item.id}>
